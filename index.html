@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina de Login</title>
+</head>
+<body style=" background-color: rgb(180, 189, 197)";>
+    <div class="container">
+        <h1>Faça seu Login!</h1><br>
+            <form action>
+                        <p class="texto-grande">
+                        <label class="label" for="email"><b>E-Mail: </b></label>
+                        <input type="text" id="email">
+    
+                        <p class="texto-grande">
+                        <label class="label" for="senha"><b>Senha: </b></label>
+                        <input type="password" id="senha" name="senha">
+                        </p>
+
+                        <button type="button" onclick="Login()">Entrar</button></a>
+                        <button type="button" onclick="cadastrar()">Cadastrar</button></a>
+            </form>
+            <p id="error-message"></p>
+    </div>
+    </body>
+    <script src="script.js"></script>
+    </html>

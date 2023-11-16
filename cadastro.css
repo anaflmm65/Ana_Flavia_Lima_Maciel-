@@ -1,0 +1,81 @@
+.container{
+    width: 600px;
+    height: 400px;
+    padding: 15px 25px;
+    margin: auto;
+    background-color:rgb(142, 147, 177);
+    box-shadow: 1 0 rgb(27, 27, 27);/*o primeiro as laterais, segundo:cima baixo, terceiro: suavidade*/
+    }
+    body{
+        padding: 62px 10px;
+        background-color: rgb(180, 189, 197);
+        font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+        justify-content: center;
+        text-align: center;
+    }
+    form label{
+        display: flex;
+        margin-bottom: -50px;
+    }
+    h1{
+        text-align: center;
+    }
+    input{
+        /*lado esquerdo*/
+        /*calc(40%-80px), calculo para não fazer quebra na página**/
+        width: 400px;
+        margin-left: 200px;
+        border-width: 1px;
+        border-color:rgb(219, 219, 219);
+        padding: 10px 0px;
+    }
+    .texto-grande {
+        color: aliceblue;
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    .label{
+        /*label: lado direito*/
+        margin-left: 100x;
+        width: 30%;
+        padding: 10px 3px;
+    
+    }
+    nav{
+        padding: 10px 10px;
+        text-align: center;
+    }
+    .botao1{
+        width: 115px;
+        height: 40px;
+        padding: 10px 20px;
+        margin-right: 10px;
+        background-color: #beb5b9; /* Cor de fundo azul */
+        color: #ffffff; /* Cor do texto branca */
+        font-weight: bold;
+        float: right;
+        margin: 5px;
+        font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+       
+    }
+    .botao2{
+        width: 120px;
+        height: 40px;
+        padding: 10px 20px;
+        margin-right: 5px;
+        background-color: #9c7386; /* Cor de fundo azul */
+        color: #ffffff; /* Cor do texto branca */
+        font-weight: bold;
+        float: right;
+        margin: 5px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    button{
+        background-color: #9c7386;
+        padding: 10px 20px;
+        font-size: 20px;
+        border-color: #000000;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
