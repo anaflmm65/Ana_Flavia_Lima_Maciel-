@@ -1,3 +1,15 @@
+<!--
+   1° adicionar Java para a tela Cadastro(cadastro.html)
+   2° salvando cadastros da tela Cadastro(cadastro.html) usando JSON para verificar na tela Login(index.html)
+   3° arrumei o id da mensagem na tela de cadastro (cadastro.html). Id="Certa" para a mensagem passada na tela
+   4° cor mudada nas mensagem, adicionando uma classe de mensagem no CSS (index.com)
+   5° linha 28 a 31 do script.js foi removida pois era apenas um teste para salvar dados em uma array
+   6° nome do id de mensagem alterado(cadastro.html: de Certa para mensCad)
+   7° linha 59 a 61 do style.css feita a adição de classe(#error-message) para a  cor das mensagens e margin-top de 10px;
+   8° linha 82 a 85 do cadastro.css feita a adição de classe(#mensCad) para a cor das mensagens e margin-top de 10px;
+
+-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -20,7 +32,8 @@
                         </p>
 
                         <button type="button" onclick="Login()">Entrar</button></a>
-                        <button type="button" onclick="cadastrar()">Cadastrar</button></a>
+
+                        <a href="cadastro.html" target="_blank"><button type="button">Cadastrar</button></a>
             </form>
             <p id="error-message"></p>
     </div>
