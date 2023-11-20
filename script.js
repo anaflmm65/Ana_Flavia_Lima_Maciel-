@@ -10,7 +10,7 @@ function cadastroUsuario() {
     });
 
     if (Existente) {
-        mensagemCad.innerHTML = 'Erro: Este usuário já está cadastrado.';
+        mensagemCad.innerHTML = 'Erro: Usuário já cadastrado.';//atualizar
         mensagemCad.style.color = "red";
         return;
     }
